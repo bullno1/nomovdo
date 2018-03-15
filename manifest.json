@@ -1,0 +1,24 @@
+{
+  "name": "Nomovdo",
+  "version": "0.1",
+  "description": "Block ALL videos",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["nomovdo.js"],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ],
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "storage", "tabs"
+  ],
+  "manifest_version": 2
+}
