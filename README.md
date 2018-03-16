@@ -2,6 +2,8 @@
 
 [![License](https://img.shields.io/badge/license-BSD-blue.svg)](LICENSE)
 
+[Download](https://chrome.google.com/webstore/detail/nomovdo/liceejagengiobjejmofgipjdmcojlli)
+
 nomovdo is an extension for blocking videos on websites.
 It was created because I could not find anything that works consistently on all websites.
 
