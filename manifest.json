@@ -1,7 +1,10 @@
 {
   "name": "Nomovdo",
-  "version": "0.1",
+  "version": "0.1.0",
   "description": "Block ALL videos",
+  "icons": {
+    "128": "icon.png"
+  },
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
