@@ -1,7 +1,7 @@
 {
   "name": "Nomovdo - Video Blocker",
   "short_name": "Nomovdo",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Block ALL videos",
   "icons": {
     "128": "icon.png"

@@ -1,6 +1,8 @@
 var flaggedVideos = new Set();
 
 function killVideo(video) {
+	video.innerHTML = '';
+
 	if(video.hasAttribute("src")) {
 		video.removeAttribute("src");
 		video.load();
