@@ -11,7 +11,7 @@ function killVideo(video) {
 
 function nomovdo(element) {
 	document.querySelectorAll("video").forEach(function(video) {
-		if(flaggedVideos.has(video)) { return; }
+		if(!video.src && video.childElementCount === 0 && flaggedVideos.has(video)) { return; }
 
 		flaggedVideos.add(video);
 
